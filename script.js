@@ -22,6 +22,8 @@ const grid = document.getElementById('grid');
     const cell = document.createElement('div');
     cell.className = 'cell';
 
+
+     
     // Handle both click and drag events
     cell.addEventListener('mousedown', () => {
       cell.classList.toggle('black');
