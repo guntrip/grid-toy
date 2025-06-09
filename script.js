@@ -1,4 +1,4 @@
-
+const INVERT_PROBABILITY = 0.5
 
 // Track if mouse is being pressed
 let isMouseDown = false;
