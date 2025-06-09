@@ -22,7 +22,9 @@ const grid = document.getElementById('grid');
     const cell = document.createElement('div');
     cell.className = 'cell';
 
-
+   if (Math.random() < 0.5) {
+      cell.classList.add('block');
+   }
      
     // Handle both click and drag events
     cell.addEventListener('mousedown', () => {
