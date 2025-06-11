@@ -7,9 +7,11 @@ body {
   #grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    width: 90vw;
-    height: 90vh;
+    width: 50vw;
+    height: 50vh;
     box-sizing: border-box;
+    margin: auto;
+    top: 10vh;
   }
 
   /* Style individual cells */
